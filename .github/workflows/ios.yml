@@ -1,4 +1,4 @@
-name: Deploying
+name:  iOS starter workflow
 on:
   push:
     branches:
