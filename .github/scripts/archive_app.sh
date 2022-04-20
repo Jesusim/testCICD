@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -eo pipefail
-
 xcodebuild -workspace testCICD.xcworkspace \
             -scheme testCICD
             -sdk iphoneos \
