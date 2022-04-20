@@ -14,6 +14,7 @@
 		2055B49B280EC9050003F41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2055B49A280EC9050003F41C /* Assets.xcassets */; };
 		2055B49E280EC9050003F41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2055B49C280EC9050003F41C /* LaunchScreen.storyboard */; };
 		2055B4AC280FB7460003F41C /* testCICDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2055B4AB280FB7460003F41C /* testCICDTests.swift */; };
+		2055B4B3280FDCC70003F41C /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2055B4B2280FDCC70003F41C /* exportOptions.plist */; };
 		5B0092B72205C57E1D1D921E /* Pods_testCICD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B49A1E602A62947C12AE1A2 /* Pods_testCICD.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		2055B49F280EC9050003F41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2055B4A9280FB7460003F41C /* testCICDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCICDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2055B4AB280FB7460003F41C /* testCICDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCICDTests.swift; sourceTree = "<group>"; };
+		2055B4B2280FDCC70003F41C /* exportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 		5B49A1E602A62947C12AE1A2 /* Pods_testCICD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCICD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CAB770EDF8F992952A9639 /* Pods-testCICD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCICD.debug.xcconfig"; path = "Target Support Files/Pods-testCICD/Pods-testCICD.debug.xcconfig"; sourceTree = "<group>"; };
 		FBF830A06DE1792F259892CC /* Pods-testCICD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCICD.release.xcconfig"; path = "Target Support Files/Pods-testCICD/Pods-testCICD.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				2055B49A280EC9050003F41C /* Assets.xcassets */,
 				2055B49C280EC9050003F41C /* LaunchScreen.storyboard */,
 				2055B49F280EC9050003F41C /* Info.plist */,
+				2055B4B2280FDCC70003F41C /* exportOptions.plist */,
 			);
 			path = testCICD;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				2055B49E280EC9050003F41C /* LaunchScreen.storyboard in Resources */,
 				2055B49B280EC9050003F41C /* Assets.xcassets in Resources */,
 				2055B499280EC9030003F41C /* Main.storyboard in Resources */,
+				2055B4B3280FDCC70003F41C /* exportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +418,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4PRXCSCE7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testCICD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -442,6 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4PRXCSCE7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testCICD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
