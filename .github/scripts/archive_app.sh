@@ -1,7 +1,7 @@
 #!/bin/bash
 
 xcodebuild -workspace testCICD.xcworkspace \
-            -scheme testCICD
+            -scheme testCICD \
             -sdk iphoneos \
             -configuration AppStoreDistribution \
             -archivePath $PWD/build/testCICD.xcarchive \
