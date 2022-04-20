@@ -13,8 +13,19 @@
 		2055B499280EC9030003F41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2055B497280EC9030003F41C /* Main.storyboard */; };
 		2055B49B280EC9050003F41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2055B49A280EC9050003F41C /* Assets.xcassets */; };
 		2055B49E280EC9050003F41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2055B49C280EC9050003F41C /* LaunchScreen.storyboard */; };
+		2055B4AC280FB7460003F41C /* testCICDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2055B4AB280FB7460003F41C /* testCICDTests.swift */; };
 		5B0092B72205C57E1D1D921E /* Pods_testCICD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B49A1E602A62947C12AE1A2 /* Pods_testCICD.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2055B4AD280FB7460003F41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2055B486280EC9030003F41C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2055B48D280EC9030003F41C;
+			remoteInfo = testCICD;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2055B48E280EC9030003F41C /* testCICD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCICD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +36,8 @@
 		2055B49A280EC9050003F41C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2055B49D280EC9050003F41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2055B49F280EC9050003F41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2055B4A9280FB7460003F41C /* testCICDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCICDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2055B4AB280FB7460003F41C /* testCICDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCICDTests.swift; sourceTree = "<group>"; };
 		5B49A1E602A62947C12AE1A2 /* Pods_testCICD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCICD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CAB770EDF8F992952A9639 /* Pods-testCICD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCICD.debug.xcconfig"; path = "Target Support Files/Pods-testCICD/Pods-testCICD.debug.xcconfig"; sourceTree = "<group>"; };
 		FBF830A06DE1792F259892CC /* Pods-testCICD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCICD.release.xcconfig"; path = "Target Support Files/Pods-testCICD/Pods-testCICD.release.xcconfig"; sourceTree = "<group>"; };
@@ -39,6 +52,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2055B4A6280FB7460003F41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				2055B490280EC9030003F41C /* testCICD */,
+				2055B4AA280FB7460003F41C /* testCICDTests */,
 				2055B48F280EC9030003F41C /* Products */,
 				F9C60516ED47F5C08271F046 /* Pods */,
 				E726B50FC21AD4EAA099F82D /* Frameworks */,
@@ -56,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				2055B48E280EC9030003F41C /* testCICD.app */,
+				2055B4A9280FB7460003F41C /* testCICDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +96,14 @@
 			path = testCICD;
 			sourceTree = "<group>";
 		};
+		2055B4AA280FB7460003F41C /* testCICDTests */ = {
+			isa = PBXGroup;
+			children = (
+				2055B4AB280FB7460003F41C /* testCICDTests.swift */,
+			);
+			path = testCICDTests;
+			sourceTree = "<group>";
+		};
 		E726B50FC21AD4EAA099F82D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +118,6 @@
 				F5CAB770EDF8F992952A9639 /* Pods-testCICD.debug.xcconfig */,
 				FBF830A06DE1792F259892CC /* Pods-testCICD.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,6 +142,24 @@
 			productReference = 2055B48E280EC9030003F41C /* testCICD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2055B4A8280FB7460003F41C /* testCICDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2055B4B1280FB7460003F41C /* Build configuration list for PBXNativeTarget "testCICDTests" */;
+			buildPhases = (
+				2055B4A5280FB7460003F41C /* Sources */,
+				2055B4A6280FB7460003F41C /* Frameworks */,
+				2055B4A7280FB7460003F41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2055B4AE280FB7460003F41C /* PBXTargetDependency */,
+			);
+			name = testCICDTests;
+			productName = testCICDTests;
+			productReference = 2055B4A9280FB7460003F41C /* testCICDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -125,6 +172,10 @@
 				TargetAttributes = {
 					2055B48D280EC9030003F41C = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					2055B4A8280FB7460003F41C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2055B48D280EC9030003F41C;
 					};
 				};
 			};
@@ -142,6 +193,7 @@
 			projectRoot = "";
 			targets = (
 				2055B48D280EC9030003F41C /* testCICD */,
+				2055B4A8280FB7460003F41C /* testCICDTests */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +206,13 @@
 				2055B49E280EC9050003F41C /* LaunchScreen.storyboard in Resources */,
 				2055B49B280EC9050003F41C /* Assets.xcassets in Resources */,
 				2055B499280EC9030003F41C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2055B4A7280FB7460003F41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +254,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2055B4A5280FB7460003F41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2055B4AC280FB7460003F41C /* testCICDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2055B4AE280FB7460003F41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2055B48D280EC9030003F41C /* testCICD */;
+			targetProxy = 2055B4AD280FB7460003F41C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2055B497280EC9030003F41C /* Main.storyboard */ = {
@@ -387,6 +462,40 @@
 			};
 			name = Release;
 		};
+		2055B4AF280FB7460003F41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badteam.testCICDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCICD.app/testCICD";
+			};
+			name = Debug;
+		};
+		2055B4B0280FB7460003F41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.badteam.testCICDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCICD.app/testCICD";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -404,6 +513,15 @@
 			buildConfigurations = (
 				2055B4A3280EC9050003F41C /* Debug */,
 				2055B4A4280EC9050003F41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2055B4B1280FB7460003F41C /* Build configuration list for PBXNativeTarget "testCICDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2055B4AF280FB7460003F41C /* Debug */,
+				2055B4B0280FB7460003F41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
