@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         
         let mmm = "HI"
         print(mmm)
-        let hello = "Helloo"
+        let hello = "Hellooщ"
         print(hello)
         view.backgroundColor = .red
     }
