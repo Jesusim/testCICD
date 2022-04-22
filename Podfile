@@ -6,5 +6,8 @@ target 'testCICD' do
   use_frameworks!
 
   # Pods for testCICD
-
+  pod 'SwiftGen', '6.4.0'
+  pod 'PureLayout', '3.1.6'
+  pod 'SwiftEntryKit', '1.2.6'
+  
 end
