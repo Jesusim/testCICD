@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: 12ecf2441c39e3bb785433d5a94bda00bafc87cf
+PODS:
+  - PureLayout (3.1.6)
+  - QuickLayout (3.0.0)
+  - SwiftEntryKit (1.2.6):
+    - QuickLayout (= 3.0.0)
+  - SwiftGen (6.4.0)
+
+DEPENDENCIES:
+  - PureLayout (= 3.1.6)
+  - SwiftEntryKit (= 1.2.6)
+  - SwiftGen (= 6.4.0)
+
+SPEC REPOS:
+  trunk:
+    - PureLayout
+    - QuickLayout
+    - SwiftEntryKit
+    - SwiftGen
+
+SPEC CHECKSUMS:
+  PureLayout: bd3c4ec3a3819ad387c99ebb72c6b129c3ed4d2d
+  QuickLayout: 07b45a72b10083fee3f095990cfed1c1e7b27f0a
+  SwiftEntryKit: 96a2fa90b2631bbbfac50d18449e9ca3d0635f13
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+
+PODFILE CHECKSUM: 549a8c24fba676a48272157dcfee0ab5c8f2e85b
 
 COCOAPODS: 1.11.2

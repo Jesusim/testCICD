@@ -13,14 +13,13 @@ jobs:
         uses: actions/checkout@v1
       - name: Install gpg
         run: brew install gnupg
-      - name: Grant permissions to secret script
-        run: chmod +x ./.github/secrets/decrypt_secrets.sh
-      - name: Grant permissions to archive_app script
-        run: chmod +x ./.github/scripts/archive_app.sh
-      - name: Grant permissions to export_ipa script
-        run: chmod +x ./.github/scripts/export_ipa.sh
-      - name: Grant permissions to publish_testflight script
-        run: chmod +x ./.github/scripts/publish_testflight.sh
+      - name: Access permissions
+        run: |
+            chmod +x ./.github/secrets/decrypt_secrets.sh
+            chmod +x ./.github/scripts/archive_app.sh
+            chmod +x ./.github/scripts/export_ipa.sh
+            chmod +x ./.github/scripts/publish_testflight.sh
+        shell: bash
       - name: Setup provisioning profile
         env:
           IOS_KEYS: ${{ secrets.IOS_KEYS }}
